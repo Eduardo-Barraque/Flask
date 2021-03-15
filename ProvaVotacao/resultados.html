@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resultado</title>
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="starter-template.css" rel="stylesheet">
+  <script type="text/javascript" src="js/index.js" ></script>
+  <link rel="stylesheet" href="css/resultado.css">
+
+
+</head>
+<body onload="resultado()"> 
+
+
+<main role="main" class="container">
+<div class="starter-template">
+
+<h1>Resultado da Votação</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Candidato</th>
+      <th scope="col">Votos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clarissa Garotinho</td>
+      <td class= "votos"id="candidato1"></td>
+
+    </tr>
+    <tr>
+      <td>Eduardo Paes</td>
+      <td class= "votos"id="candidato2"></td>
+    </tr>
+    <tr>
+      <td>Marcelo Crivella</td>
+      <td class= "votos"id="candidato3"></td>
+
+    </tr>
+    <tr>
+      <td>Marcelo Freixo</td>
+      <td class= "votos" id="candidato4"></td>
+      
+    </tr>
+    <tr>
+      <td>Votos Nulos</td>
+      <td class= "votos"id="votonulo"></td>
+    </tr>
+    <tr>
+      <td>Votos Brancos</td>
+      <td class= "votos"id="votobranco"></td>
+    </tr>
+      <td>Porcentagem Nulos/Brancos</td>
+      <td class="votos" id="porcentagem"></td>
+    </tr>
+    </tr>
+      <td>Total de Votos</td>
+      <td class= "votos" id="total"></td>
+    </tr>
+  </tbody>
+</table>
+<a href="index.html"> <input type="button" value="Voltar"></input> </a>
+
+
+</div>
+</main><!-- /.container -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../assets/js/vendor/popper.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
